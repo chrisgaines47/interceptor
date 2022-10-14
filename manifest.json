@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Interceptor",
+    "description": "Network interceptor for qa testing",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup/popup.html",
+      "default_icon": "replace.png"
+    },
+    "background": {
+        "service_worker": "serviceWorker.js"
+    },
+    "permissions": [
+        "storage"
+    ]
+  }

@@ -1,0 +1,27 @@
+html, body {margin: 0;padding: 0;}
+.row:before, .row:after {content: " ";display: table;}
+.row:after {clear: both;}
+.row {width: 100%;}
+.col {float: left;}
+.one {width: 10%;}
+.two {width: 20%;}
+.three {width: 30%;}
+.third {width: 33%;}
+.four {width: 40%;}
+.five {width: 50%;}
+.six {width: 60%;}
+.seven {width: 70%;}
+.eight {width: 80%;}
+.nine {width: 90%;}
+.third {width: 33%;}
+.fourth {width: 25%;}
+.pointfive {width: 5%;}
+.onepointfive {width: 15%;}
+
+.mrgn {
+    margin-bottom: .5rem;
+}
+
+.default-padding {
+    padding: .5rem;
+}
